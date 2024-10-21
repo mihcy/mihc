@@ -1,7 +1,7 @@
 :root {
   --background: #000000;
   --foreground: #ffffff;
-  --nuetral: #303030;
+  --nuetral: #b0b0b0;
 }
 
 body {
@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-  height: 94vh;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -31,7 +31,7 @@ a {
 }
 
 .social-icon {
-  font-size: 25px;
+  font-size: 20px;
   color: var(--foreground);
   text-decoration: none;
   transition: color 0.2s;
@@ -44,4 +44,13 @@ a {
 
 .back {
   color: var(--foreground);
+}
+
+.img {
+  height: 100px;
+  width: 100px;
+}
+
+.img:hover {
+  transform: scale(1.1);
 }
