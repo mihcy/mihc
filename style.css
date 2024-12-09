@@ -38,7 +38,7 @@ a {
 }
 
 .social-icon {
-  font-size: 25px;
+  font-size: 20px;
   color: var(--foreground);
   text-decoration: none;
   transition: color 0.2s;
