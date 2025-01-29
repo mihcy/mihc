@@ -15,7 +15,7 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
-  font-family: Helvetica, sans-serif;
+  font-family: Helvetica;
   font-size: large;
   font-style: normal;
   color: var(--foreground);
@@ -38,7 +38,7 @@ a {
 }
 
 .social-icon {
-  font-size: 20px;
+  font-size: 23px;
   color: var(--foreground);
   text-decoration: none;
   transition: color 0.2s;
