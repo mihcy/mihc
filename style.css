@@ -21,6 +21,19 @@ body {
   color: var(--foreground);
 }
 
+.container-extra {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  font-size: large;
+  font-style: normal;
+  color: var(--foreground);
+}
+
 .left, .right {
   flex: 1;
   padding: 20px;
