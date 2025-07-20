@@ -16,7 +16,7 @@ body {
   justify-content: center;
   text-align: center;
   font-family: Helvetica, sans-serif;
-  font-size: large;
+  font-size: medium;
   font-style: normal;
   color: var(--foreground);
 }
@@ -29,7 +29,7 @@ body {
   justify-content: center;
   text-align: center;
   font-family: Helvetica, sans-serif;
-  font-size: large;
+  font-size: medium;
   font-style: normal;
   color: var(--foreground);
 }
