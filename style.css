@@ -10,7 +10,6 @@ body {
 }
 
 .container {
-  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -22,7 +21,6 @@ body {
 }
 
 .container-extra {
-  height: 130vh;
   display: flex;
   flex-direction: column;
   align-items: center;
