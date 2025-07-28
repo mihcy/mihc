@@ -10,11 +10,10 @@ body {
 }
 
 .container {
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
   text-align: center;
   font-family: Helvetica, sans-serif;
   font-size: medium;
@@ -23,6 +22,7 @@ body {
 }
 
 .container-extra {
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -32,6 +32,8 @@ body {
   font-size: medium;
   font-style: normal;
   color: var(--foreground);
+  padding: 40px;
+  box-sizing: border-box;
 }
 
 .left, .right {
