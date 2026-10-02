@@ -66,10 +66,8 @@ a:hover {
 }
 
 .img {
+  width: auto;
   height: 100px;
-  width: 100px;
-}
-
-.img:hover {
-  transform: scale(1.1);
+  display: inline-block;
+  vertical-align: middle;
 }
